@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: captain-yami-saint
+    runtime: node
+    buildCommand: yarn install
+    startCommand: yarn start
+    envVars:
+      - key: NODE_VERSION
+        value: "22"

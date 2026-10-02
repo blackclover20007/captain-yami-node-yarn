@@ -1,0 +1,16 @@
+{
+  "name": "captain-yami-saint",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Captain Yami \u2022 Saint personal website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
